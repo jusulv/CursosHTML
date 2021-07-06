@@ -1,0 +1,24 @@
+h1{
+    color: #f07167;
+}
+
+a:link{
+    text-decoration: none;
+    color:#fb8500
+    
+}
+a:visited{
+    text-decoration: none;
+    color:#219ebc
+  
+}
+
+/*Cuando nos ponemos encima del link*/
+a:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+a:active{
+    color:brown;
+    text-decoration: underline;
+}

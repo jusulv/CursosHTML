@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practica_form.css"/>
+    <title>Formularios</title>
+</head>
+<body>
+    <h1> <center>EJERCICIO PRÁCTICO</center> </h1>
+    <h2> <center>Formulario Diagnostico</center> </h2>
+    <form method="get" action="mi_servidor" target="_blank" autocomplete="off">
+        <label for="nombre"> Nombre: </label> <br>
+        <input type="text" id="nombre" name="nombre" 
+        placeholder="Escribe tu nombre" required="true"/> <br>
+        <label for="nombre"> Apellido: </label> <br>
+        <input type="text" id="nombre" name="nombre" 
+        placeholder="Escribe tu apellido" required="true"/>
+        <br>
+        <br>
+        <label>Correo: </label> <br>
+        <input type="email" id="correo" name="correo"
+        placeholder="Escribe tu correo" required="true"/>
+        <br>
+        <br>
+        <label> <p><b>*</b> Seleccione los dispositivos de transmisión y recepcion de datos: </p></label>
+        <table>
+            <thead>
+              <tr>
+                <th><input type="checkbox" name="op1">Bluetooth</th>
+                <th><input type="checkbox" name="op2">Disco duro</th>
+                <th><input type="checkbox" name="op3">Tarjeta de video</th>
+                <th><input type="checkbox" name="op4">Tarjeta de red</th>
+                <th><input type="checkbox" name="op5">Puerto PCI</th>
+                <th><input type="checkbox" name="op6">Cable de fibra óptica</th>
+            </thead>
+            </table>
+            <br>
+        <label> <p><b>*</b> ¿Cuál es el protocolo de transferencia de hipertexto? </p> </label>
+        <input type="radio" id="http" name="pregun" value="http"/>
+        <label for="HTTP">HTTP</label> <BR>
+        <input type="radio" id="finger" name="pregun" value="finger"/>
+        <label for="finger">Finger</label>
+        <br>
+        <input type="radio" id="whois" name="pregun" value="whois"/>
+        <label for="whois">Whois</label>
+        <br>
+        <br>
+     
+        <table>
+            <thead>
+                <label> <p><b>*</b> ¿Cuales de los siguientes son protocolos de seguridad web? </p></label>
+              <tr>
+                <th><input type="checkbox" name="FTP">FTP</th>
+                <th><input type="checkbox" name="HTTP_2">HTML</th>
+                <th><input type="checkbox" name="IP">DNS</th>
+                <th><input type="checkbox" name="CMD">PCI</th>
+                <th><input type="checkbox" name="TCP">HTTPS</th>
+                <th><input type="checkbox" name="USB">JS</th>
+            </thead>
+            </table>
+            <br>
+            <br>
+            <label> <p><b>*</b> ¿Cuál protocolo es el encargdo de transferir archivos entre computadores? </p> </label>
+            <input type="radio" id="tcp" name="pregun" value="tcp"/>
+            <label for="tcp">TCP</label> <BR>
+            <input type="radio" id="ip" name="pregun" value="ip"/>
+            <label for="ip">IP</label>  <br>
+            <input type="radio" id="ftp" name="pregun" value="ftp"/>
+            <label for="ftp">FTP</label>
+                <br>
+                <br>
+                <label> <p> <b>*</b> ¿Cuál es el acrónimo de una hoja de estilo de cascada? </p> </label>
+                <input type="radio" id="css" name="pregun" value="css"/>
+                <label for="css">CSS</label> <BR>
+                <input type="radio" id="HTML" name="pregun" value="HTML"/>
+                <label for="HTML">HTML</label>  <br>
+                <input type="radio" id="JS" name="pregun" value="JS"/>
+                <label for="JS">JS</label> <br> <br>
+                <label for="comentario">Comentario: </label><br>
+                <textarea id="comentario" name="comentario" rows="10" cols="70">
+                </textarea>
+                <br>
+                <input type="submit" value="enviar"/>
+                <input type="reset" value="Borrar"/>
+                <br>
+                <br>
+        
+    </form>
+    <br>
+    <br>
+    <footer>
+
+        <address>
+          <center> Copyright &copy; 2022 hecho por Juan Sulvara, todos los derechos reservados. </center>  
+        </address>
+      </footer> 
+</body>
+</html>

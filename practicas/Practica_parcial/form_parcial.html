@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script ></script>
+
+</head>
+<body>
+    <h1> <center> CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS</center> </h1>
+    <center><img src="descarga.png" width="300" height="240">
+    <table cellpadding="6">
+        <thead>
+        
+            <tr>
+            <td colspan="2"><h1>Formulario de contacto</h1></td>
+            </tr>
+            <tr>
+    <form enctype="text/plain" action="mailto: ejemplo_practica@hotmail.com" method="post">
+    <th><label for="nombre"> Nombre y apellidos:*</label></th>
+    <th><input type="text" id="nombre" name="nombre" 
+    placeholder="Escribe tu nombre" required="true"/></th>
+</tr>
+
+<tr>
+    <th><label for="empresa"> Empresa:</label></th>
+    <th><input type="text" id="empresa" name="empresa"
+    placeholder="Nombre de la empresa"/></th>
+</tr>
+<tr>
+    <th> <label for="correo"> Correo:*</label></th>
+    <th><input type="email" id="correo" name="correo"
+    placeholder="Escribe tu correo" required="true"/></th>
+</tr>
+<tr>   
+    <th><label for="identi"> Telefono:</label></th>
+    <th><input type="number" id="telefono" name="telefono" step="any"
+        placeholder="Escribe tu número telefónico"/></th>
+</tr>   
+<tr>
+    <th><label for="poblacion"> Poblacion:</label></th>
+    <th><input type="text" id="poblacion" name="poblacion"/></th>
+</tr>
+<tr>
+    <th><label for="pais"> Pais:</label></th>
+    <th> <select name="pais" id="pais">
+        <option>N/A</option>
+        <option>Colombia</option>
+        <option>United States</option>
+        <option>Argentina</option>
+        <option>Mexico</option>
+        <option>Canadá</option>
+        <option>Brasil</option>
+        <option>Chile</option>
+    </select> </th>
+</tr>
+<tr>
+    <th><label for="comentario">Mensaje: </label></th></tr>
+    <tr><th colspan="2"><textarea id="comentario" name="comentario" rows="5" cols="50"></textarea></th></tr>
+    
+
+<tr>
+    <th colspan="2"><h4><input type="checkbox" name="informacion" required="true">He leído y acepto la política de privacidad</h4></th>
+    </tr>
+    <tr>
+    <th colspan="2"> <input type="submit" value="enviar" onclick="alert"> </th>
+
+</tr>
+</thead>
+</table>
+
+
+</form>
+</center>
+<br>
+<footer>
+    <address>
+      <center> <b> Copyright &copy; 2022 hecho por Juan Sulvara, todos los derechos reservados. </b></center>  
+    </address>
+  </footer> 
+</body>
+</html>

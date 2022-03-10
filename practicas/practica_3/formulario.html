@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 3</title>
+    <link rel="stylesheet" href="practica_3.css">
+</head>
+<body>
+    <h1> <center>UNIVERSIDAD MINUTO DE DIOS</center> </h1>
+    <img src="descarga.png" align="right">
+    <p>Formulario de registro</p>
+    <form method="get" action="mi_servidor" target="_blank" autocomplete="off">
+    <label for="nombre"> Nombre: </label> <br>
+    <input type="text" id="nombre" name="nombre" 
+    placeholder="Escribe tu nombre" required="true"/>
+    <br>
+    <br>
+    <label for="apellidos"> Apellidos: </label> <br>
+    <input type="text" id="apellidos" name="apellidos"
+    placeholder="Escribe tu apellido" required="true"/>
+    <br>
+    <br>    
+    <label for="identi"> Id: </label> <br>
+    <input type="number" id="identi" name="identi" step="any"/>
+    <br> 
+    <br>   
+    <label>Sexo: </label>
+    <input type="radio" id="hombre" name="sexo" value="hombre"/>
+    <label for="hombre">Hombre</label>
+    <input type="radio" id="mujer" name="sexo" value="mujer"/>
+    <label for="mujer">Mujer</label>
+    <br>
+    <br>
+    <label>Correo: </label> <br>
+    <input type="text" id="correo" name="correo"
+    placeholder="Escribe tu correo" required="true"/>
+    <br>
+    <br>
+    <h4><input type="checkbox" name="informacion">Deseo recibir información</h4>
+    <h4><input type="checkbox" name="informacion" required="true">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</h4>
+    <input type="submit" value="enviar"/>
+    <input type="reset" value="Borrar"/>
+</form>
+</body>
+</html>

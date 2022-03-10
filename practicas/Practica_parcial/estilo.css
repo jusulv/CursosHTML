@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient( #ffffff, #3182fc);
+   }
+   img{
+    font-size: 10px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h6{
+    size: 50px;
+}
+th{
+  text-align: left;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h4{
+    text-decoration: underline;
+    color: blue;
+}
+
+table{
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
